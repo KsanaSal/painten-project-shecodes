@@ -1,0 +1,94 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+}
+div {
+    display: block;
+}
+h1 {
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 900;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding: 20px;
+    text-shadow: 10px 8px 15px rgba(250, 250, 250, 0.5);
+    font-size: 36px;
+}
+h2 {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+}
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px rgba(157, 186, 228, 0.4);
+}
+p {
+    font-size: 24px;
+    width: 100%;
+}
+strong,
+em {
+    color: #4b1330;
+}
+small {
+    margin: 15px 0;
+    font-size: 14px;
+}
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #4b1330;
+    transition: color 250ms ease;
+}
+a:hover {
+    color: #fff;
+}
+button {
+    display: block;
+    cursor: pointer;
+    margin: 24px auto;
+    padding: 16px 24px;
+    box-shadow: 14px 12px 30px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: opacity 250ms ease;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    border-radius: 15px;
+    background: linear-gradient(
+        45deg,
+        rgb(4, 218, 223) 0%,
+        rgb(157, 14, 211) 72%
+    );
+    box-shadow: 5px 7px 15px rgba(107, 75, 125, 0.2);
+    margin: 20px auto;
+    padding: 25px;
+    width: 50%;
+}
+.link {
+    color: #fff;
+    font-size: 16px;
+}
+.btn {
+    background-color: #4b1330;
+    border: none;
+    font-size: 36px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.autor {
+    font-size: 20px;
+    text-align: center;
+}
